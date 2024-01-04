@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search app</title>
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="search-bar">
+        <input type="text" class ="search" id="movieName">
+        <button class="btn" onclick="searchMovie()">Search</button>
+    </div>
+    <div class="container">
+        <div class="content">
+            <h2 id="title"></h2>
+            <p>Director: <span id="director"></span></p>
+            <p>Actor: <span id="actor"></span></p>
+            <p>Box Office Collection: <span id="collection"></span></p>
+            <p>Description: <span id="description"></span></p>
+            <p>Awards: <span id="awards"></span></p>
+            <p>Writer: <span id="writer"></span></p>
+            <p>IMDB Rating: <span id="ratings"></span></p>
+            <p>Genre: <span id="genre"></span></p>
+            <p>Released on: <span id="date"></span></p>
+        </div>
+        <img class="poster" id="poster" src="" alt="poster">
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

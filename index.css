@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    
+}
+.search-bar{
+    width:640px;
+    margin:20px auto;
+    display: flex;
+}
+.search{
+    width:75%;
+    font-size: 15px;
+    padding:15px;
+    border:none;
+    background-color: rgb(40, 39, 39);
+    color:white;
+
+}
+.search:focus{
+    outline: none;
+}
+.btn{
+    width:25%;
+    font-size: 15px;
+    padding:15px;
+    border:none;
+    margin-left:0;
+    color:white;
+    background-color:red; 
+}
+
+.container{
+    width:640px;
+    margin:50px auto;
+    display: flex;
+    gap:10px;
+    justify-content: space-between;
+    color: white;
+}
+.content p{
+    font-size:16px;
+    font-weight:bolder;
+    color:rgb(241, 232, 232);
+}
+span{
+    font-weight: lighter;   
+}
+
+.poster{
+    height: 380px;
+}
